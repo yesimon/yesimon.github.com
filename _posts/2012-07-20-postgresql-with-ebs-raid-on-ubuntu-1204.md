@@ -220,8 +220,8 @@ verify everything is working properly. Use ``-p 5432`` to test the
 underlying Postgresql database as well:
 
 {% highlight bash %}
-$ psql -U premonit -p 6432 -h <ip-address>  # (for remote access)
-$ psql -U premonit -p 6432 -h localhost  # (for localhost access)
+$ psql -U myapp -p 6432 -h <ip-address>  # (for remote access)
+$ psql -U myapp -p 6432 -h localhost  # (for localhost access)
 {% endhighlight %}
 
 Feel free to comment below if you have any suggestions!
